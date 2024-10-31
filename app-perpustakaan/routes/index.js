@@ -56,7 +56,7 @@ router.get("/pinjam",(req, res)=>{
   res.json({
       "status" : "Success",
       "message" : "Data Pinjam",
-      "data" : [{nama: "eric candra", tanggal: "14 oktober 2024"},{nama: "jovan", tanggal: "25 oktober 2024"}]
+      "data" : [{nama: "eric candra", alamat: "jalan enggano" ,tanggal: "14 oktober 2024"},{nama: "jovan", alamat: "jalan kuto", tanggal: "25 oktober 2024"},{nama: "yuan", alamat: "jalan yawi",tanggal: "31 oktober 2024"}]
   })
 });
 
@@ -64,7 +64,7 @@ router.get("/petugas",(req, res)=>{
   res.json({
       "status" : "Success",
       "message" : "Data Petugas",
-      "data" : [{namaPetugas: "Dareen", tugas: "security"},{namaPetugas: "Cristiano", tugas: "admin"}]
+      "data" : [{namaPetugas: "Dareen", tugas: "security"},{namaPetugas: "wawan", tugas: "penjaga"},{namaPetugas: "Cristiano", tugas: "admin"}]
   })
 });
 
